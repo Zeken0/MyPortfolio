@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* ----------------------------------------------------- Header -------------------------------------------- */
+header {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  column-gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+header nav ul a {
+  color: white;
+}
+/* ----------------------------------------------------- /Header -------------------------------------------- */
+
+/* ----------------------------------------------------- Main -------------------------------------------- */
+main {
+  min-height: 100vh;
+}
+
+.home_container {
+  width: 100%;
+  min-height: 105vh;
+  background-color: darkgray;
+}
+
+.about_container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.work_container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.contact_container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: dimgray;
+}
+/* ----------------------------------------------------- /Main -------------------------------------------- */
+
+/* ----------------------------------------------------- Footer -------------------------------------------- */
+footer {
+  height: 100px;
+  background-color: black;
+}
+/* ----------------------------------------------------- /Footer -------------------------------------------- */
