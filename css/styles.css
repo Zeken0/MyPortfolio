@@ -790,7 +790,7 @@ footer .footer-links .footer-line {
   }
 
   #about_container .bottom-content .left-content p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   #about_container .bottom-content .right-content {
@@ -822,7 +822,7 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   #work_container .bottom-content .project-one .project-buttons a,
