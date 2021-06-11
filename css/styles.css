@@ -760,13 +760,15 @@ footer .footer-links .footer-line {
   }
 
   #home_container .top-content .right-content a .hero-btn {
-    padding: 15px 78px;
+    padding: 15px 72px;
     font-size: 0.8rem;
+    letter-spacing: 1px;
   }
 
   #home_container .top-content .right-content a .hero-btn-two {
-    padding: 15px 80px;
+    padding: 15px 75px;
     font-size: 0.8rem;
+    letter-spacing: 1px;
   }
 
   #about_container .bottom-content {
