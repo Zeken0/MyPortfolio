@@ -820,6 +820,11 @@ footer .footer-links .footer-line {
     text-align: center;
   }
 
+  #work_container .bottom-content .project-one p,
+  #work_container .bottom-content .project-two p {
+    font-size: 1rem;
+  }
+
   #work_container .bottom-content .project-one .project-buttons a,
   #work_container .bottom-content .project-two .project-buttons a {
     padding: 15px 10px;
