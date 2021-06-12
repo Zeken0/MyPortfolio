@@ -4,6 +4,12 @@ const header = document.querySelector('header');
 
 window.addEventListener('scroll', ()=> {
     let current = '';
+    
+    if (current > 10) {
+        header.classList.remove('headerShow')
+    } else {
+        header.classList.add('headerShow')
+    }
 
     sections.forEach( section => {
         const sectionTop = section.offsetTop;
@@ -15,10 +21,8 @@ window.addEventListener('scroll', ()=> {
 console.log(current);
     navLi.forEach( li => {
         li.classList.remove('active')
-        header.classList.remove('headerShow')
         if(li.classList.contains(current)){
             li.classList.add('active')
-            header.classList.add('headerShow')
         }
     })
 })

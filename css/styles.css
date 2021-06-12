@@ -134,7 +134,7 @@ h6 {
   min-height: 105vh;
   background-color: #161616;
   align-items: unset;
-  background-image: url(https://d33wubrfki0l68.cloudfront.net/images/f20315b799c67d762c3c2992f87aa674e6e30d19/hero-bg.jpg);
+  background-image: url(/img/hero-bg.jpg);
   background-size: cover;
   position: relative;
 }
@@ -341,7 +341,7 @@ h6 {
 
 #work_container .bottom-content .project-one img,
 #work_container .bottom-content .project-two img {
-  height: 140px;
+  height: 120px;
 }
 
 #work_container .bottom-content .project-one p,
@@ -381,7 +381,7 @@ h6 {
   width: 100%;
   min-height: 100vh;
   background-color: #151515;
-  background-image: url(https://d33wubrfki0l68.cloudfront.net/images/7a680076a2e6dad3f395071c7b793840e0a84639/contact-bg.jpg);
+  background-image: url(/img/contact-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -419,12 +419,10 @@ h6 {
   column-gap: 1rem;
   margin-bottom: 5rem;
   z-index: 10;
-  border: solid red 1px;
 }
 
 #contact_container .bottom-content .left-content {
   width: 80%;
-  border: solid green 1px;
 }
 
 #contact_container .bottom-content .left-content .form_div {
@@ -494,7 +492,6 @@ h6 {
   flex-direction: column;
   row-gap: 1.5rem;
   width: 20%;
-  border: solid yellow 1px;
 }
 
 #contact_container .bottom-content .right-content div {
@@ -684,7 +681,7 @@ footer .footer-links .footer-line {
 
 #contact_container .bottom-content .right-content {
   width: 100%;
-  padding-left: 1.3rem;
+  padding-left: 1.5rem;
   row-gap: 3rem;
 }
 
