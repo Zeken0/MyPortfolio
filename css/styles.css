@@ -363,7 +363,7 @@ h6 {
 
 #work_container .bottom-content .project-one .project-buttons a,
 #work_container .bottom-content .project-two .project-buttons a {
-  padding: 15px 25px;
+  padding: 15px 30px;
   background-color: #9a2ca0;
   color: white;
   border: none;
@@ -852,7 +852,7 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one .project-buttons a,
   #work_container .bottom-content .project-two .project-buttons a {
-    padding: 15px 13px;
+    padding: 15px 14px;
     font-size: 0.8rem;
   }
 
