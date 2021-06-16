@@ -341,7 +341,7 @@ h6 {
 
 #work_container .bottom-content .project-one img,
 #work_container .bottom-content .project-two img {
-  height: 120px;
+  width: 100%;
 }
 
 #work_container .bottom-content .project-one p,
@@ -837,11 +837,6 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content h4 {
     text-align: center;
-  }
-
-  #work_container .bottom-content .project-one img,
-  #work_container .bottom-content .project-two img {
-    height: 75px;
   }
 
   #work_container .bottom-content .project-one p,
