@@ -841,19 +841,25 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one,
   #work_container .bottom-content .project-two {
-    justify-content: space-around;
-    height: 500px;
+    justify-content: unset;
+    height: 450px;
+    row-gap: 1.5rem;
+  }
+
+  #work_container .bottom-content .project-two {
+    height: 505px;
   }
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
     width: 80%;
-    font-size: 0.95rem;
+    margin: 0 auto;
+    font-size: 0.9rem;
   }
 
   #work_container .bottom-content .project-one .project-buttons a,
   #work_container .bottom-content .project-two .project-buttons a {
-    padding: 15px 14px;
+    padding: 12px 14px;
     font-size: 0.8rem;
   }
 
