@@ -710,6 +710,10 @@ footer .footer-links .footer-line {
     display: block;
   }
 
+  header nav .menu ul {
+    align-items: flex-end;
+  }
+
   #home_container .top-content .left-content div {
     margin-bottom: 0.2rem;
   }
@@ -847,19 +851,19 @@ footer .footer-links .footer-line {
   }
 
   #work_container .bottom-content .project-two {
-    height: 505px;
+    height: 480px;
   }
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
     width: 80%;
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   #work_container .bottom-content .project-one .project-buttons a,
   #work_container .bottom-content .project-two .project-buttons a {
-    padding: 12px 14px;
+    padding: 10px 12px;
     font-size: 0.8rem;
   }
 
