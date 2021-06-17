@@ -332,9 +332,9 @@ h6 {
 #work_container .bottom-content .project-two {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  height: 700px;
+  height: 650px;
   width: 45%;
   background-color: white;
 }
@@ -837,6 +837,12 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content h4 {
     text-align: center;
+  }
+
+  #work_container .bottom-content .project-one,
+  #work_container .bottom-content .project-two {
+    justify-content: space-around;
+    height: 500px;
   }
 
   #work_container .bottom-content .project-one p,
