@@ -847,11 +847,12 @@ footer .footer-links .footer-line {
   #work_container .bottom-content .project-two {
     justify-content: unset;
     height: 450px;
-    row-gap: 1.5rem;
+    row-gap: 1.6rem;
+    text-align: center;
   }
 
   #work_container .bottom-content .project-two {
-    height: 480px;
+    height: 505px;
   }
 
   #work_container .bottom-content .project-one p,
@@ -863,7 +864,7 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one .project-buttons a,
   #work_container .bottom-content .project-two .project-buttons a {
-    padding: 10px 12px;
+    padding: 10px 10px;
     font-size: 0.8rem;
   }
 
