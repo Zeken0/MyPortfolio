@@ -1,201 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="This is a portfolio site for Ahmed J Jibril">
-    <link rel="stylesheet" href="/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="This is a portfolio site for Ahmed J Jibril"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Ahmed J. Jibril | Frontend Developer</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div>
-                <a href="#home_container"><img src="/img/logo.jpg" alt="Logo"></a>
-            </div>
-            <div>
-                <button class="hamburger" onclick="toggleClass()">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li class="home_container"><a href="#home_container">Home</a></li>
-                    <li class="about_container"><a href="#about_container">About</a></li>
-                    <li class="work_container"><a href="#work_container">Work</a></li>
-                    <li class="contact_container"><a href="#contact_container">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div>
+          <a href="#home_container"><img src="/img/logo.jpg" alt="Logo" /></a>
+        </div>
+        <div>
+          <button class="hamburger" onclick="toggleClass()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="menu">
+          <ul>
+            <li class="home_container"><a href="#home_container">Home</a></li>
+            <li class="about_container">
+              <a href="#about_container">About</a>
+            </li>
+            <li class="work_container"><a href="#work_container">Work</a></li>
+            <li class="contact_container">
+              <a href="#contact_container">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section id="home_container">
-            <div class="overlay"></div>
-            <div class="shadow-overlay"></div>
-            <div class="top-content">
-                <div class="left-content">
-                    <div>
-                        <div class="line"></div>
-                        <span>HELLO THERE</span>
-                    </div>
-                    <h1>I am Ahmed J. Jibril.</h1>
-                    <span class="h1-two">I am a Frontend Developer</span>
-                </div>
-                <div class="right-content">
-                    <a href="#about_container">
-                        <span class="hero-btn-two">MORE ABOUT ME</span>
-                    </a>
-                    <a href="#work_container">
-                        <span class="hero-btn">LATEST PROJECTS</span>
-                    </a>
-                </div>
+      <section id="home_container">
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+        <div class="top-content">
+          <div class="left-content">
+            <div>
+              <div class="line"></div>
+              <span>HELLO THERE</span>
             </div>
-            <div class="bottom-content">
-                <a href="#about_container">
-                    <span>SCROLL DOWN <i class="fas fa-angle-down"></i></span>
-                </a>
+            <h1>I am Ahmed J. Jibril.</h1>
+            <span class="h1-two">I am a Frontend Developer</span>
+          </div>
+          <div class="right-content">
+            <a href="#about_container">
+              <span class="hero-btn-two">MORE ABOUT ME</span>
+            </a>
+            <a href="#work_container">
+              <span class="hero-btn">LATEST PROJECTS</span>
+            </a>
+          </div>
+        </div>
+        <div class="bottom-content">
+          <a href="#about_container">
+            <span>SCROLL DOWN <i class="fas fa-angle-down"></i></span>
+          </a>
+        </div>
+      </section>
+      <section id="about_container">
+        <div class="top-content">
+          <span>ABOUT</span>
+          <h2>Personal Info</h2>
+          <h3>Get to know more about me</h3>
+          <div class="underline"></div>
+        </div>
+        <div class="bottom-content">
+          <div class="left-content">
+            <h4>Hello!</h4>
+            <p>
+              My name is Ahmed Jamal Jibril and I'm a passionate Frontend
+              Developer using web technologies to build amazing products and
+              focusing on solving problems for different niches and different
+              industries using the power of technology.
+            </p>
+            <p>
+              I will love to hear from you. Whether it's a project, job
+              opportunity, or just a chat. Feel free to contact me.
+            </p>
+          </div>
+          <div class="right-content">
+            <h4>Skills</h4>
+            <div class="skills-content">
+              <div class="skills-item">HTML</div>
+              <div class="skills-item">CSS</div>
+              <div class="skills-item">JAVASCRIPT</div>
+              <div class="skills-item">REACT</div>
+              <div class="skills-item">NODE JS</div>
+              <div class="skills-item">SASS</div>
+              <div class="skills-item">ADOBE XD</div>
+              <div class="skills-item">FIGMA</div>
+              <div class="skills-item">WORDPRESS</div>
+              <div class="skills-item">BOOTSTRAP</div>
             </div>
-        </section>
-        <section id="about_container">
-            <div class="top-content">
-                <span>ABOUT</span>
-                <h2>Personal Info</h2>
-                <h3>Get to know more about me</h3>
-                <div class="underline"></div>
+          </div>
+        </div>
+      </section>
+      <section id="work_container">
+        <div class="top-content">
+          <span>WORK</span>
+          <h2>Latest Projects.</h2>
+          <h3>
+            Here you can find some of the projects that I created recently
+          </h3>
+          <div class="underline"></div>
+        </div>
+        <div class="bottom-content">
+          <div class="project-one">
+            <a href="https://px01.netlify.app/" target="_blank">
+              <img src="/img/highart2.JPG" alt="image of the project" />
+            </a>
+            <h4>High Art</h4>
+            <p>
+              High Art is a blog site about the most influential music albums of
+              the 21st century. Made using Html, Css, Javascript, Jquery, etc
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://xd.adobe.com/view/5bfb59d4-f438-46ee-997d-5722c7aa7068-0ea8/"
+                target="_blank"
+                class="design-btn"
+                >Design</a
+              >
+              <a
+                href="https://px01.netlify.app/"
+                target="_blank"
+                class="site-btn"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/Zeken0/Project-Exam-01"
+                target="_blank"
+                class="code-btn"
+                >Code</a
+              >
             </div>
-            <div class="bottom-content">
-                <div class="left-content">
-                    <h4>Hello!</h4>
-                    <p>
-                        My name is Ahmed Jamal Jibril and I'm a passionate Frontend Developer using web technologies to build amazing products and focusing on solving problems for different niches and different industries using the power of technology.
-                    </p>
-                    <p>
-                        I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.
-                    </p>
-                </div>
-                <div class="right-content">
-                    <h4>Skills</h4>
-                    <div class="skills-content">
-                        <div class="skills-item">HTML</div>
-                        <div class="skills-item">CSS</div>
-                        <div class="skills-item">JAVASCRIPT</div>
-                        <div class="skills-item">REACT</div>
-                        <div class="skills-item">NODE JS</div>
-                        <div class="skills-item">SCSS</div>
-                        <div class="skills-item">ADOBE XD</div>
-                        <div class="skills-item">FIGMA</div>
-                        <div class="skills-item">WORDPRESS</div>
-                        <div class="skills-item">BOOTSTRAP</div>
-                    </div>
-                </div>
+          </div>
+          <div class="project-two">
+            <a href="https://sp01.netlify.app/" target="_blank">
+              <img src="/img/tism2.JPG" alt="image of the project" />
+            </a>
+            <h4>The Interactive Science Museum</h4>
+            <p>
+              The Interactive Science Museum is a informative museum site with a
+              mission to make science accessible to all. Made using Html, Css,
+              Javascript, etc
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://xd.adobe.com/view/39045b06-2d8b-4833-9c3f-f265b6476211-6c57/screen/044d0ef7-5786-4b32-bdc5-16896607b15a"
+                target="_blank"
+                class="design-btn"
+                >Design</a
+              >
+              <a
+                href="https://sp01.netlify.app/"
+                target="_blank"
+                class="site-btn"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/Zeken0/Semester-Project01"
+                target="_blank"
+                class="code-btn"
+                >Code</a
+              >
             </div>
-        </section>
-        <section id="work_container">
-            <div class="top-content">
-                <span>WORK</span>
-                <h2>Latest Projects.</h2>
-                <h3>Here you can find some of the projects that I created recently</h3>
-                <div class="underline"></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact_container">
+        <div class="overlay"></div>
+        <div class="top-content">
+          <span>CONTACT</span>
+          <h2>Say Hello.</h2>
+          <h3>
+            Submit the form below so I can get back to you as soon as possible
+          </h3>
+        </div>
+        <div class="bottom-content">
+          <div class="left-content">
+            <div class="form_div">
+              <form>
+                <input
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  placeholder="Name"
+                />
+                <p class="error fullNameError">Please enter your name</p>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+                <p class="error emailError">Please enter a valid email</p>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
+                />
+                <p class="error subjectError">Please enter a subject</p>
+                <input
+                  type="text"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                />
+                <p class="error messageError">
+                  Message have to be three or more characters long
+                </p>
+                <button id="submit">Submit</button>
+              </form>
             </div>
-            <div class="bottom-content">
-                <div class="project-one">
-                    <a href="https://px01.netlify.app/" target="_blank">
-                    <img src="/img/highart2.JPG" alt="image of the project">
-                    </a>
-                    <h4>High Art</h4>
-                    <p>
-                        High Art is a blog site about the most influential music albums of the 21st century. Made using Html, Css, Javascript, Jquery, etc
-                    </p>
-                    <div class="project-buttons">
-                        <a href="https://xd.adobe.com/view/5bfb59d4-f438-46ee-997d-5722c7aa7068-0ea8/" target="_blank" class="design-btn">Design</a>
-                        <a href="https://px01.netlify.app/" target="_blank" class="site-btn">Live Site</a>
-                        <a href="https://github.com/Zeken0/Project-Exam-01" target="_blank" class="code-btn">Code</a>
-                    </div>
-                </div>
-                <div class="project-two">
-                    <a href="https://sp01.netlify.app/" target="_blank">
-                        <img src="/img/tism2.JPG" alt="image of the project">
-                    </a>
-                    <h4>The Interactive Science Museum</h4>
-                    <p>
-                        The Interactive Science Museum is a informative museum site with a mission to make science accessible to all. Made using Html, Css, Javascript, etc
-                    </p>
-                    <div class="project-buttons">
-                        <a href="https://xd.adobe.com/view/39045b06-2d8b-4833-9c3f-f265b6476211-6c57/screen/044d0ef7-5786-4b32-bdc5-16896607b15a" target="_blank" class="design-btn">Design</a>
-                        <a href="https://sp01.netlify.app/" target="_blank" class="site-btn">Live Site</a>
-                        <a href="https://github.com/Zeken0/Semester-Project01" target="_blank" class="code-btn">Code</a>
-                    </div>
-                </div>
+          </div>
+          <div class="right-content">
+            <div>
+              <h5>PHONE</h5>
+              <p>Mobile: (+47)99592853</p>
             </div>
-        </section>
-        <section id="contact_container">
-            <div class="overlay"></div>
-            <div class="top-content">
-                <span>CONTACT</span>
-                <h2>Say Hello.</h2>
-                <h3>Submit the form below so I can get back to you as soon as possible</h3>
+            <div>
+              <h5>EMAIL</h5>
+              <p>Ahmed.J.Jibril@hotmail.com</p>
             </div>
-            <div class="bottom-content">
-                <div class="left-content">
-                    <div class="form_div">
-                        <form>
-                            <input type="text" name="fullname" id="fullname" placeholder="Name" />
-                            <p class="error fullNameError">
-                                Please enter your name
-                            </p>
-                            <input type="text" name="email" id="email" placeholder="Email" />
-                            <p class="error emailError">
-                                Please enter a valid email
-                            </p>
-                            <input type="text" name="subject" id="subject" placeholder="Subject" />
-                            <p class="error subjectError">
-                                Please enter a subject
-                            </p>
-                            <input type="text" name="message" id="message" placeholder="Message" />
-                            <p class="error messageError">
-                                Message have to be three or more characters long
-                            </p>
-                            <button id="submit">
-                                Submit
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="right-content">
-                    <div>
-                        <h5>PHONE</h5>
-                        <P>Mobile: (+47)99592853</P>
-                    </div>
-                    <div>
-                        <h5>EMAIL</h5>
-                        <P>Ahmed.J.Jibril@hotmail.com</P>
-                    </div>
-                    <div>
-                        <h5>ADDRESS</h5>
-                        <P>Asker, Norway</P>
-                    </div>
-                </div>
+            <div>
+              <h5>ADDRESS</h5>
+              <p>Asker, Norway</p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <a href="#home_container">
-            <img src="/img/logo.jpg" alt="Logo">
+      <a href="#home_container">
+        <img src="/img/logo.jpg" alt="Logo" />
+      </a>
+      <div class="footer-links">
+        <a href="https://github.com/Zeken0" target="_blank">
+          <h6>GITHUB</h6>
         </a>
-        <div class="footer-links">
-            <a href="https://github.com/Zeken0" target="_blank">
-                <h6>GITHUB</h6>
-            </a>
-            <div class="footer-line"></div>
-            <a href="https://www.linkedin.com/" target="_blank">
-                <h6>LINKEDIN</h6>
-            </a>
-        </div>
+        <div class="footer-line"></div>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <h6>LINKEDIN</h6>
+        </a>
+      </div>
     </footer>
-    <script src="https://kit.fontawesome.com/31d00bb5b7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/31d00bb5b7.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="/js/components/hamburger-menu.js"></script>
     <script src="/js/contact.js"></script>
     <script src="/js/main.js"></script>
-</body>
+  </body>
 </html>
