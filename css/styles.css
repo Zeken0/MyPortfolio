@@ -29,6 +29,7 @@ header {
 
 .showTwo {
   background: transparent;
+  transition: 0.5s;
 }
 
 header nav {
