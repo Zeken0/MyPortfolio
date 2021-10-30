@@ -857,12 +857,8 @@ footer .footer-links .footer-line {
   #work_container .bottom-content .project-one,
   #work_container .bottom-content .project-two {
     justify-content: unset;
-    height: 450px;
-    row-gap: 1.6rem;
-  }
-
-  #work_container .bottom-content .project-one {
     height: 470px;
+    row-gap: 1.6rem;
   }
 
   #work_container .bottom-content .project-two {
