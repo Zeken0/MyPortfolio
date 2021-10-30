@@ -340,7 +340,7 @@ h6 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+
   height: 650px;
   width: 45%;
   background-color: white;
@@ -353,7 +353,7 @@ h6 {
 
 #work_container .bottom-content .project-one p,
 #work_container .bottom-content .project-two p {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   font-family: "librebaskerville-regular", serif;
   font-size: 1.2rem;
@@ -859,7 +859,10 @@ footer .footer-links .footer-line {
     justify-content: unset;
     height: 450px;
     row-gap: 1.6rem;
-    text-align: center;
+  }
+
+  #work_container .bottom-content .project-one {
+    height: 470px;
   }
 
   #work_container .bottom-content .project-two {
@@ -868,7 +871,7 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     font-size: 0.8rem;
   }
