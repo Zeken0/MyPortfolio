@@ -834,7 +834,7 @@ footer .footer-links .footer-line {
   }
 
   #about_container .bottom-content .right-content .skills-content .skills-item {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
 
   #work_container {
@@ -868,7 +868,7 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
-    width: 75%;
+    width: 73%;
     margin: 0 auto;
     font-size: 0.8rem;
   }
