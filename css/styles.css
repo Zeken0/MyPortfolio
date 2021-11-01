@@ -297,13 +297,14 @@ h6 {
 }
 
 #about_container .bottom-content .right-content .skills-item {
-  font-family: "librebaskerville-regular", serif;
+  font-family: "Source Sans Pro", sans-serif;
   display: inline-block;
   padding: 10px;
   background-color: whitesmoke;
-  color: black;
-  letter-spacing: 2px;
-  font-size: 0.75rem;
+  color: #5f5f5f;
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 #work_container {
@@ -675,7 +676,7 @@ footer .footer-links .footer-line {
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
-    width: 70%;
+    width: 65%;
   }
 
   #work_container .bottom-content .project-one .project-buttons a,
