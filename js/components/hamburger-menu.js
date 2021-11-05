@@ -10,13 +10,13 @@ hideMenuBtn.push(homeBtn, aboutBtn, workBtn, contactBtn);
 function toggleClass() {
   menu.classList.toggle("togglecls");
 
-  document.querySelector("main").onclick = function () {
-    menu.classList.toggle("togglecls");
-  };
-
   hideMenuBtn.forEach((btn) => {
     btn.onclick = function () {
       menu.classList.toggle("togglecls");
     };
   });
+
+  document.querySelector("main").onclick = function () {
+    menu.classList.remove("togglecls");
+  };
 }
