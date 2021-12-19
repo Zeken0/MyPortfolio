@@ -341,7 +341,8 @@ h6 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 650px;
+  height: fit-content;
+  row-gap: 2.3rem;
   width: 45%;
   background-color: white;
   padding-bottom: 1.5rem;
@@ -858,12 +859,8 @@ footer .footer-links .footer-line {
   #work_container .bottom-content .project-one,
   #work_container .bottom-content .project-two {
     justify-content: unset;
-    height: 470px;
+    height: fit-content;
     row-gap: 1.6rem;
-  }
-
-  #work_container .bottom-content .project-two {
-    height: 530px;
   }
 
   #work_container .bottom-content .project-one p,
