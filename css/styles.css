@@ -421,7 +421,7 @@ h6 {
 #work_container .bottom-content .project-two .project-buttons a:hover {
   background-color: #9a2ca0;
   color: white;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 #contact_container {
@@ -589,8 +589,17 @@ footer .footer-links {
   column-gap: 1rem;
 }
 
+footer img:hover {
+  opacity: 80%;
+}
+
 footer .footer-links a {
   color: white;
+}
+
+footer .footer-links a:hover {
+  color: #9a2ca0;
+  transition: 0.2s;
 }
 
 footer .footer-links .footer-line {
