@@ -895,11 +895,23 @@ footer .footer-links .footer-line {
   }
   #work_container .bottom-content h4 {
     text-align: center;
+    font-size: 1.1rem;
   }
 
   #work_container .bottom-content .project-one p,
   #work_container .bottom-content .project-two p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  #work_container .bottom-content .project-one .skills-item,
+  #work_container .bottom-content .project-two .skills-item {
+    font-size: 0.6rem;
+  }
+
+  #work_container .bottom-content .project-one .project-buttons,
+  #work_container .bottom-content .project-two .project-buttons {
+    justify-content: center;
+    column-gap: 0.5rem;
   }
 
   #work_container .bottom-content .project-one .project-buttons a,
